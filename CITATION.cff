@@ -11,6 +11,11 @@ authors:
     orcid: "https://orcid.org/0009-0003-0749-4971"
 repository-code: "https://github.com/Disentangle-Lab/khipu-semantic-alignment"
 url: "https://github.com/Disentangle-Lab/khipu-semantic-alignment"
+doi: "10.5281/zenodo.24610674"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24610674"
+    description: "Zenodo concept DOI (all versions) for Disentangle-Lab/khipu-semantic-alignment"
 license: "MIT"
 keywords:
   - "Inka khipu"

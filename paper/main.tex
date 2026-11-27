@@ -16,7 +16,7 @@
 \title{\textbf{Pre-Registered Archive Invariance, Candidate Subsidiary Regularities, and Putative Split-Ledger Links in Inka Khipus}}
 
 \author{
-  Maria Contreras\thanks{Disentangle Lab. ORCID: \url{https://orcid.org/0009-0003-0749-4971}. Correspondence: \texttt{[contact email]}. Code, pre-registration protocol, deviation log, and derived datasets: \url{https://github.com/Disentangle-Lab/khipu-semantic-alignment}.}
+  Maria Contreras\thanks{Disentangle Lab. ORCID: \url{https://orcid.org/0009-0003-0749-4971}. Correspondence: \texttt{[contact email]}. Code, pre-registration protocol, deviation log, and derived datasets: \url{https://github.com/Disentangle-Lab/khipu-semantic-alignment} (Zenodo DOI: \url{https://doi.org/10.5281/zenodo.24610674}).}
 }
 
 \date{Preprint draft --- \today}
@@ -163,7 +163,7 @@ Our combined confirmatory and exploratory evidence motivates a concrete working 
 
 \section{Methods}
 
-Cord, knot, color, and provenance tables were extracted from OKR v2.1.0 (\texttt{khipu.db}; \citealt{okr2025v210}) and verified against $651$ individual KFG Excel workbooks (\texttt{KFG\_DB\_Excel/*.xlsx}; \citealt{khosla2024kfg}), avoiding KFG's \texttt{khipu\_summary.csv} due to its $2{,}313$-subsidiary drop. All code runs reproducibly via \texttt{uv run python -m src.<module>} with pinned dependencies (\texttt{uv.lock}), deterministic seeds, and $16$ automated \texttt{pytest} checks (CI-verified via GitHub Actions). Permutation tests report exact $p = (k+1)/(N_{\mathrm{perm}}+1)$ bounds; asymptotic tests accompany $p$-values with standardized effect sizes and $95\%$ confidence intervals; multiplicity is controlled via Benjamini--Hochberg FDR \citep{benjamini1995controlling} and Holm--Bonferroni. Raw third-party datasets (OKR, KFG, and \emph{Textos Andinos} recitations) are excluded from Git and fetched locally via \texttt{scripts/fetch\_data.sh}. Code is licensed under MIT and derived outputs under CC-BY-4.0 at \url{https://github.com/Disentangle-Lab/khipu-semantic-alignment}.
+Cord, knot, color, and provenance tables were extracted from OKR v2.1.0 (\texttt{khipu.db}; \citealt{okr2025v210}) and verified against $651$ individual KFG Excel workbooks (\texttt{KFG\_DB\_Excel/*.xlsx}; \citealt{khosla2024kfg}), avoiding KFG's \texttt{khipu\_summary.csv} due to its $2{,}313$-subsidiary drop. All code runs reproducibly via \texttt{uv run python -m src.<module>} with pinned dependencies (\texttt{uv.lock}), deterministic seeds, and $16$ automated \texttt{pytest} checks (CI-verified via GitHub Actions). Permutation tests report exact $p = (k+1)/(N_{\mathrm{perm}}+1)$ bounds; asymptotic tests accompany $p$-values with standardized effect sizes and $95\%$ confidence intervals; multiplicity is controlled via Benjamini--Hochberg FDR \citep{benjamini1995controlling} and Holm--Bonferroni. Raw third-party datasets (OKR, KFG, and \emph{Textos Andinos} recitations) are excluded from Git and fetched locally via \texttt{scripts/fetch\_data.sh}. Code is licensed under MIT and derived outputs under CC-BY-4.0 at \url{https://github.com/Disentangle-Lab/khipu-semantic-alignment} (archival Zenodo DOI: \url{https://doi.org/10.5281/zenodo.24610674}).
 
 \bibliographystyle{plainnat}
 \bibliography{references}

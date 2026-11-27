@@ -1,6 +1,9 @@
 # Pre-Registered Archive Invariance, Candidate Subsidiary Regularities, and Putative Split-Ledger Links in Inka Khipus
 
-**Maria Contreras** ([Disentangle Lab](https://github.com/Disentangle-Lab)) · Companion to [khipu-structural-graphs](https://github.com/Disentangle-Lab/khipu-structural-graphs), [khipu-intra-grammar](https://github.com/Disentangle-Lab/khipu-intra-grammar), and [khipu-okr-kfg-concordance](https://github.com/Disentangle-Lab/khipu-okr-kfg-concordance).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24610674.svg)](https://doi.org/10.5281/zenodo.24610674)
+[![CI](https://github.com/Disentangle-Lab/khipu-semantic-alignment/actions/workflows/ci.yml/badge.svg)](https://github.com/Disentangle-Lab/khipu-semantic-alignment/actions/workflows/ci.yml)
+
+**Maria Contreras** ([Disentangle Lab](https://github.com/Disentangle-Lab) · [ORCID](https://orcid.org/0009-0003-0749-4971)) · Companion to [khipu-structural-graphs](https://github.com/Disentangle-Lab/khipu-structural-graphs), [khipu-intra-grammar](https://github.com/Disentangle-Lab/khipu-intra-grammar), and [khipu-okr-kfg-concordance](https://github.com/Disentangle-Lab/khipu-okr-kfg-concordance).
 
 This repository evaluates whether surviving Inka tabular khipus share archive-level column schemas (`[PREREG]`), accounts explicitly for structural outliers (`[PREREG]`), tests table-to-table alignment against verbatim highland colonial transcriptions (`[PREREG]`), and reports post-hoc corpus-wide investigations of subsidiary-cord regularities and cross-khipu numerical links (`[EXPLORATORY]`). Full numerical tables and figures live in [`RESULTS.md`](RESULTS.md); every protocol deviation is logged in [`DEVIATIONS.md`](DEVIATIONS.md); post-hoc analyses are segregated in [`EXPLORATORY.md`](EXPLORATORY.md).
 
