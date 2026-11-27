@@ -8,6 +8,7 @@ authors:
   - family-names: "Contreras"
     given-names: "Maria"
     affiliation: "Disentangle Lab"
+    orcid: "https://orcid.org/0009-0003-0749-4971"
 repository-code: "https://github.com/Disentangle-Lab/khipu-semantic-alignment"
 url: "https://github.com/Disentangle-Lab/khipu-semantic-alignment"
 license: "MIT"
