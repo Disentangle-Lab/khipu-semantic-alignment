@@ -1,0 +1,4 @@
+subtest,n,effect,p_bound
+R4a_pair_level_dedup,7971,"frac=71.6%, r_rb=-0.633, Z=-46.60","p < 1e-300 (asymptotic, |Z|=46.6)"
+R4c_part_whole_ge10_dedup,1230,obs=24 vs null_mean=9.92 (enrichment=2.42x),"p=0.0002 (N_PERM=5000, min=1/5001)"
+R5_khipu_level_dedup,137,gt50=84/137 (med=64.7%),Wilcoxon p=1.06e-03

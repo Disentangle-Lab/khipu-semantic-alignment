@@ -1,0 +1,122 @@
+{
+  "schema_id": "chucuito_1567_moiety_k5",
+  "title": "Chucuito 4-Khipu Tributary & Population Account (Martín Cari, 1532/1567)",
+  "source_citation": "Textos Andinos m_23, m_24, m_25, m_26 (Visita de Chucuito, Garci Diez de San Miguel 1567; KFG textosbook)",
+  "region": "Chucuito (Lake Titicaca / Collao)",
+  "year": 1567,
+  "domain": "census_tribute",
+  "role": "step3_primary",
+  "editorial_notes": "12 rows = 7 cabeceras split by Anansaya/Lurinsaya moiety (Ilave and Yunguyo are reported combined across both moieties in m_23, m_24, m_26; m_25 splits them 792+792=1584 and 561+594=1155). Juli Anansaya Aymaras includes 153 Chinchasuyo mitimaes (1438+153=1591) and Minas includes 3 mitimaes (45+3=48). Pomata Anansaya Aymaras includes 20 Canas mitimaes (1663+20=1683). Sama (yungas) omitted from 12-row table because it lacks m_24/m_26 entries.",
+  "column_names": [
+    "aymaras",
+    "uros",
+    "ropa_piezas",
+    "tributo_pesos",
+    "indios_minas"
+  ],
+  "row_names": [
+    "Chucuito_Anansaya",
+    "Chucuito_Lurinsaya",
+    "Acora_Anansaya",
+    "Acora_Lurinsaya",
+    "Ilave_Ambas",
+    "Juli_Anansaya",
+    "Juli_Lurinsaya",
+    "Pomata_Anansaya",
+    "Pomata_Lurinsaya",
+    "Yunguyo_Ambas",
+    "Zepita_Anansaya",
+    "Zepita_Lurinsaya"
+  ],
+  "value_matrix": [
+    [
+      1233,
+      500,
+      83,
+      1418,
+      41
+    ],
+    [
+      1384,
+      347,
+      83,
+      1418,
+      41
+    ],
+    [
+      1221,
+      440,
+      77,
+      1320,
+      39
+    ],
+    [
+      1207,
+      378,
+      76,
+      1320,
+      38
+    ],
+    [
+      1470,
+      1070,
+      93,
+      1584,
+      46
+    ],
+    [
+      1591,
+      158,
+      92,
+      1518,
+      48
+    ],
+    [
+      1804,
+      256,
+      114,
+      1814,
+      57
+    ],
+    [
+      1683,
+      110,
+      106,
+      1749,
+      53
+    ],
+    [
+      1341,
+      183,
+      85,
+      1452,
+      42
+    ],
+    [
+      1039,
+      381,
+      66,
+      1155,
+      33
+    ],
+    [
+      1112,
+      186,
+      71,
+      1188,
+      35
+    ],
+    [
+      866,
+      120,
+      54,
+      924,
+      27
+    ]
+  ],
+  "structural_flags": {
+    "has_moiety_split": true,
+    "has_summary_row": false,
+    "has_round_100_totals": false
+  }
+}

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "khipu-semantic-alignment"
+version = "1.0.0"
+description = "Pre-Registered Archive Invariance, Candidate Subsidiary Regularities, and Putative Split-Ledger Links in Inka Khipus"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.12"
+authors = [
+    { name = "Maria Contreras" },
+]
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    "scikit-learn>=1.5",
+    "openpyxl>=3.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
+figures = [
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+markers = [
+    "requires_raw_data: tests that require local OKR v2.1.0 and KFG Excel workbooks (skipped in CI when data/okr is absent)",
+]

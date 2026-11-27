@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verify-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify pre-registration SHA-256 checksum
+        run: sha256sum -c PREREGISTRATION.sha256
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install Python 3.12 and dependencies
+        run: |
+          uv python install 3.12
+          uv sync --frozen --group dev
+
+      - name: Run unit & frozen-result tests (skip raw-DB tests absent in CI)
+        run: uv run pytest -q -m "not requires_raw_data"

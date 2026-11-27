@@ -1,0 +1,7 @@
+kfg_name,OKR_NUM,n_groups_obs,n_groups_pub,R_obs,R_pub,V_obs,V_pub,U_obs,first_cord_sum_kfg,first_cord_sum_okr,first_cord_mean_kfg,n_broken_first_cords
+UR087,KH0323,48,48,48,48,0,0,0,57,57,1.19,2
+UR092,KH0328,10,10,9,10,0,0,1,11,11,1.1,0
+UR088,KH0324,9,9,0,0,9,9,0,80,80,8.89,0
+UR089,KH0325,34,34,0,0,34,34,0,101,101,2.97,4
+UR091,KH0327,15,15,0,0,15,15,0,36,36,2.4,0
+UR090,KH0326,17,17,6,5,11,12,0,84,88,4.94,2

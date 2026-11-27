@@ -1,0 +1,7 @@
+check,target_khipu,part2_vals,comparison_vals,exact_matches,n_cells,pearson_r,note
+UR1175_Part2_Grp22_vs_Part3_setsum,UR1175 (internal Ascher Note 5),"[77, 35, 268, 200, 136]","[89, 78, 266, 200, 136]",2,5,0.9898,Part2 sum=716 vs Part3 set-sum=769
+UR1175_Part2_Grp23_vs_Part3_setsum,UR1175 (internal Ascher Note 5),"[108, 36, 445, 250, 96]","[109, 78, 430, 250, 96]",2,5,0.9952,Part2 sum=935 vs Part3 set-sum=963
+UR1175_Part2_Grp24_vs_Part3_setsum,UR1175 (internal Ascher Note 5),"[75, 66, 335, 86, 192]","[84, 57, 425, 140, 192]",1,5,0.978,Part2 sum=754 vs Part3 set-sum=898
+UR1175_Part2_15cords_vs_KH0468,"KH0468 (UR231, VA 63038(A) Ica/Pisco, n=864)","[77, 35, 268, 200, 136, 108, 36, 445, 250, 96, 75, 66, 335, 86, 192]",raw_fwd_pos621,1,15,0.348,No Part 2 copy found in VA 63038
+UR1175_Part2_15cords_vs_KH0469,"KH0469 (UR232, VA 63038(B) Huacho, n=125)","[77, 35, 268, 200, 136, 108, 36, 445, 250, 96, 75, 66, 335, 86, 192]",nonzero_fwd_pos51,1,15,0.1789,No Part 2 copy found in VA 63038
+UR1175_Part2_15cords_vs_KH0470,"KH0470 (UR233, VA 63038 b Huacho, n=126)","[77, 35, 268, 200, 136, 108, 36, 445, 250, 96, 75, 66, 335, 86, 192]",nonzero_rev_pos72,2,15,-0.256,No Part 2 copy found in VA 63038

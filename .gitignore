@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+data/kfg/
+data/okr/
+data/textos_andinos_raw/
+data/*.zip
+.pytest_cache/
+.DS_Store

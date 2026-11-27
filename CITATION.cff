@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code, protocol, or derived tables, please cite this repository."
+type: software
+title: "Pre-Registered Archive Invariance, Candidate Subsidiary Regularities, and Putative Split-Ledger Links in Inka Khipus"
+version: "1.0.0"
+date-released: "2026-11-27"
+authors:
+  - family-names: "Contreras"
+    given-names: "Maria"
+    affiliation: "Disentangle Lab"
+repository-code: "https://github.com/Disentangle-Lab/khipu-semantic-alignment"
+url: "https://github.com/Disentangle-Lab/khipu-semantic-alignment"
+license: "MIT"
+keywords:
+  - "Inka khipu"
+  - "quipu"
+  - "Andean archaeology"
+  - "computational archaeology"
+  - "subsidiary cords"
+  - "pre-registration"
+  - "Open Khipu Repository"
+  - "Khipu Field Guide"
+abstract: >-
+  Reproducible code, pre-registration protocol, deviation log, and derived
+  datasets for a two-phase study of Inka khipus across OKR v2.1.0 (n = 611)
+  and disjoint KFG-only Excel workbooks (n = 36). Phase 1 reports pre-registered
+  inter-archive invariance controlling for column count and sample size, explicit
+  tabular outlier accounting (21/86), and a null result (0/30 BH-FDR) against
+  five highland Textos Andinos schemas calibrated with power and proxy controls.
+  Phase 2 (exploratory) documents five candidate hierarchical regularities of
+  subsidiary cords (including a vertical spacing dose-response contrast and
+  blind KFG out-of-sample replication), regional archive variation across eight
+  sites, and a corpus-wide 611 x 611 rare-number sweep surfacing a putative
+  three-khipu Berlin split-ledger link (VA 42518 <-> VA 63038 b / VA 63038(B))
+  and an unflagged reversed physical duplicate (VA 24370(B) <-> VA 66834).

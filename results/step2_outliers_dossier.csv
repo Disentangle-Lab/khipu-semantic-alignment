@@ -1,0 +1,58 @@
+OKR_NUM,kfg_name,provenance,cataloger,G,k,n_pendants,table_coverage,clean_dec_frac,h3_col_match,h3_val_r2,n_sub_total,sub_ratio,h5c_sig,n_groups_x100_strict,det_family,det_outlier_reason,hdbscan_cluster
+KH0128,UR1114,Between Ica and Pisco,UR,2,160,339,0.944,0.9794,0.875,0.9443,18,0.0531,False,0,OUT,extreme_arity(k=160); minimal_rows(G=2),-1
+KH0286,UR053D,Unknown,UR,2,36,72,1.0,1.0,0.8056,0.9247,0,0.0,False,0,OUT,extreme_arity(k=36); minimal_rows(G=2),-1
+KH0242,UR006,Leymebamba,UR,13,22,570,0.5018,0.993,0.7786,0.5549,294,0.5158,False,0,OUT,extreme_arity(k=22),-1
+KH0300,UR063,Unknown,UR,3,20,111,0.5405,0.964,0.6667,0.9327,0,0.0,False,0,OUT,extreme_arity(k=20),3
+KH0287,UR053E,Unknown,UR,2,20,70,0.5714,1.0,0.7,0.9559,35,0.5,False,0,OUT,extreme_arity(k=20); minimal_rows(G=2),-1
+KH0061,AS050,Unknown,AS,12,18,313,0.6901,0.9968,0.947,0.6012,57,0.1821,False,0,OUT,extreme_arity(k=18),-1
+KH0350,UR114,Nazca,UR,4,18,219,0.3288,1.0,0.5648,0.6248,41,0.1872,False,0,OUT,extreme_arity(k=18),3
+KH0347,UR111,Unknown,UR,4,17,149,0.4564,0.9933,0.3333,0.544,0,0.0,False,1,OUT,extreme_arity(k=17),1
+KH0237,UR001,Leymebamba,UR,6,16,406,0.2365,0.9926,0.25,0.5538,165,0.4064,False,0,OUT,extreme_arity(k=16); low_table_coverage(0.24),1
+KH0301,UR064,Huaquerones,UR,2,16,71,0.4507,0.9859,0.625,0.9718,3,0.0423,False,0,OUT,extreme_arity(k=16); minimal_rows(G=2),3
+KH0534,HP002,Pachacamac,HP,2,15,30,1.0,1.0,0.7333,0.9019,1,0.0333,False,0,OUT,extreme_arity(k=15); minimal_rows(G=2),1
+KH0450,UR212,Pachacamac,UR,12,14,195,0.8615,0.9795,0.5076,0.2749,1,0.0051,True,0,OUT,extreme_arity(k=14),-1
+KH0097,UR1084,Unknown,UR,10,14,319,0.4389,1.0,0.4206,0.551,0,0.0,False,0,OUT,extreme_arity(k=14),1
+KH0435,UR197,Pachacamac,UR,6,12,216,0.3333,0.9907,0.3333,0.4095,20,0.0926,False,0,OUT,extreme_arity(k=12),1
+KH0448,UR210,Ica/Pisco,UR,4,12,70,0.6857,0.9857,0.7778,0.9342,8,0.1143,False,0,OUT,extreme_arity(k=12),3
+KH0183,UR1166,Ica,UR,19,11,222,0.9414,0.991,0.3418,0.1905,140,0.6306,False,0,OUT,extreme_arity(k=11),-1
+KH0586,HP055,Unknown,HP,11,11,189,0.6402,0.3915,0.8446,0.7679,0,0.0,False,0,OUT,extreme_arity(k=11),-1
+KH0466,UR229,Ica,UR,9,11,189,0.5238,0.9894,0.399,0.3871,5,0.0265,False,0,OUT,extreme_arity(k=11),1
+KH0147,UR1131,Pachacamac,UR,13,10,146,0.8904,1.0,0.9615,0.4292,141,0.9658,False,0,OUT,extreme_arity(k=10),-1
+KH0151,UR1135,Ica,UR,2,8,22,0.7273,1.0,1.0,0.8325,1,0.0455,False,0,OUT,minimal_rows(G=2),1
+KH0144,AS129,Ica,AS,2,7,14,1.0,1.0,1.0,0.7448,0,0.0,False,0,OUT,minimal_rows(G=2),1
+KH0152,UR1136,Nazca,UR,20,9,181,0.9945,0.9558,0.3591,0.1335,104,0.5746,False,0,F2_medium_multi_attr,,-1
+KH0562,HP030,Pachacamac,HP,11,9,107,0.9252,1.0,0.3434,0.2751,3,0.028,False,1,F2_medium_multi_attr,,-1
+KH0472,UR235,Unknown,UR,10,9,130,0.6923,1.0,0.516,0.5486,64,0.4923,False,1,F2_medium_multi_attr,,-1
+KH0587,HP056,Unknown,HP,6,9,162,0.3333,0.1728,0.2148,0.2043,18,0.1111,False,0,F4_nonclean_hybrid,,-1
+KH0559,HP027,Pachacamac,HP,5,9,53,0.8491,1.0,0.5444,0.5535,23,0.434,True,0,F3_self_totaling,,-1
+KH0321,UR085,Unknown,UR,4,9,152,0.2368,0.9934,0.6481,0.4102,121,0.7961,False,1,F2_medium_multi_attr,,-1
+KH0590,QU002,Unknown,QU,4,9,85,0.4235,0.9647,0.8333,0.4431,6,0.0706,False,0,F2_medium_multi_attr,,-1
+KH0447,UR209,Pisco,UR,4,9,71,0.507,0.9296,0.2037,0.6042,23,0.3239,False,0,F2_medium_multi_attr,,-1
+KH0565,HP033,"Ullujaya, Ocucaje, Ica",HP,3,8,24,1.0,0.2083,1.0,0.6672,4,0.1667,False,0,F4_nonclean_hybrid,,-1
+KH0068,UR1057,Unknown,UR,23,7,557,0.289,0.9964,0.8701,0.0371,30,0.0539,False,0,F2_medium_multi_attr,,-1
+KH0081,KH0081,"Monte de Cacatilla, Valle de Nazca",AS,22,7,215,0.7163,0.2651,0.7242,0.2492,1,0.0047,False,0,F4_nonclean_hybrid,,-1
+KH0187,AS170,Pachacamac,AS,9,7,101,0.6238,0.9208,0.873,0.3942,24,0.2376,False,0,F2_medium_multi_attr,,-1
+KH0470,UR233,Huacho,UR,18,6,126,0.8571,1.0,0.4194,0.4958,18,0.1429,False,0,F2_medium_multi_attr,,-1
+KH0527,UR289,"Armatambo, Huaca San Pedro",UR,5,6,35,0.8571,0.5429,0.5,0.5339,0,0.0,False,0,F4_nonclean_hybrid,,-1
+KH0192,UR1175,Pachacamac,UR,44,5,224,0.9821,1.0,0.9108,0.2164,114,0.5089,False,0,F2_medium_multi_attr,,-1
+KH0123,UR1109,Ica,UR,40,5,287,0.6969,1.0,0.6615,0.182,0,0.0,False,0,F2_medium_multi_attr,,-1
+KH0446,UR208,Pachacamac,UR,25,5,148,0.8446,1.0,0.35,0.1789,42,0.2838,False,0,F2_medium_multi_attr,,-1
+KH0247,UR011,Leymebamba,UR,15,5,176,0.4261,0.9432,0.3886,0.5849,167,0.9489,False,0,F2_medium_multi_attr,,-1
+KH0437,UR199,Pachacamac,UR,12,5,126,0.4762,1.0,0.7697,0.7654,0,0.0,False,0,F2_medium_multi_attr,,-1
+KH0232,AS212,Unknown,AS,5,5,65,0.3846,1.0,0.5,0.4935,30,0.4615,False,0,F2_medium_multi_attr,,-1
+KH0101,UR1088,Huacho,UR,12,4,87,0.5517,1.0,0.8333,0.9092,8,0.092,False,0,F1_compact_parallel,,-1
+KH0059,AS048,Unknown,AS,11,4,52,0.8462,0.9615,1.0,0.6034,28,0.5385,False,0,F1_compact_parallel,,-1
+KH0069,UR1058,Unknown,UR,5,4,38,0.5263,0.9737,1.0,0.6131,0,0.0,False,0,F1_compact_parallel,,-1
+KH0052,AS041,Unknown,AS,5,4,32,0.625,1.0,0.575,0.5424,24,0.75,False,0,F1_compact_parallel,,-1
+KH0608,JC001,Incahuasi,JC,4,4,36,0.4444,0.5833,0.5417,0.7787,0,0.0,False,0,F4_nonclean_hybrid,,-1
+KH0530,UR292A,"Armatambo, Huaca San Pedro",UR,4,4,53,0.3019,0.6604,0.4583,0.6646,3,0.0566,False,0,F4_nonclean_hybrid,,-1
+KH0135,UR1121,Pachacamac,UR,70,3,280,0.75,1.0,1.0,0.0437,1,0.0036,False,0,F1_compact_parallel,,-1
+KH0506,UR269,Incahuasi,UR,60,3,289,0.6228,0.609,0.4787,0.1121,41,0.1419,False,0,F4_nonclean_hybrid,,-1
+KH0499,UR263,Incahuasi,UR,28,3,236,0.3559,0.6695,0.3166,0.1506,1,0.0042,False,0,F4_nonclean_hybrid,,-1
+KH0503,UR267A,Incahuasi,UR,25,3,82,0.9146,0.2561,0.6389,0.1403,6,0.0732,False,1,F4_nonclean_hybrid,,-1
+KH0510,UR273A,Incahuasi,UR,13,3,83,0.4699,0.7831,0.5513,0.4321,4,0.0482,False,0,F4_nonclean_hybrid,,-1
+KH0505,UR268,Incahuasi,UR,12,3,131,0.2748,0.3588,0.5253,0.3471,38,0.2901,False,0,F4_nonclean_hybrid,,-1
+KH0514,UR275,Incahuasi,UR,9,3,112,0.2411,0.2411,0.8704,0.6283,13,0.1161,False,1,F4_nonclean_hybrid,,-1
+KH0511,UR273B,Incahuasi,UR,7,3,114,0.1842,0.8421,0.746,0.9731,10,0.0877,False,0,F4_nonclean_hybrid,,-1
+KH0426,UR188,Unknown,UR,6,3,64,0.2812,0.875,0.5556,0.6811,14,0.2188,False,0,F4_nonclean_hybrid,,-1
+KH0463,UR226,Pachacamac,UR,4,3,36,0.3333,1.0,0.3889,0.6094,11,0.3056,False,0,F1_compact_parallel,,-1

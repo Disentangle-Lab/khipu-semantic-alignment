@@ -1,0 +1,98 @@
+{
+  "schema_id": "huaraz_1558_full_k7",
+  "title": "Visita de Huaraz Full Census by Principal (1558, casas + 6 person categories)",
+  "source_citation": "Textos Andinos m_63 (Visita de los repartimientos de Guaraz y Llaguaraz, Lic. Diego Álvarez 1558; KFG textosbook)",
+  "region": "Huaraz, Ancash (Callejón de Huaylas / Santa Basin)",
+  "year": 1558,
+  "domain": "census",
+  "role": "step3_primary",
+  "editorial_notes": "Identical to huaraz_1558_demo_k6 with the leading casas column preserved verbatim.",
+  "column_names": [
+    "casas",
+    "casados",
+    "mozos",
+    "mozas",
+    "muchachos_6_13",
+    "ninos_0_5",
+    "viejos_viudos_50plus"
+  ],
+  "row_names": [
+    "Don_Diego_Chinchecaque",
+    "Santiago_Xulcallivia",
+    "Martin_Yarollivia",
+    "Geronimo_Rimaycochache",
+    "Don_Gonzalo_Xulcacollas",
+    "Domingo_Vilcacaque",
+    "Don_Fernando_Paverr"
+  ],
+  "value_matrix": [
+    [
+      44,
+      27,
+      2,
+      12,
+      28,
+      24,
+      14
+    ],
+    [
+      58,
+      41,
+      4,
+      11,
+      30,
+      34,
+      22
+    ],
+    [
+      44,
+      34,
+      0,
+      7,
+      21,
+      18,
+      22
+    ],
+    [
+      65,
+      39,
+      3,
+      5,
+      35,
+      33,
+      23
+    ],
+    [
+      56,
+      32,
+      2,
+      8,
+      26,
+      24,
+      24
+    ],
+    [
+      47,
+      27,
+      3,
+      11,
+      21,
+      17,
+      21
+    ],
+    [
+      71,
+      43,
+      5,
+      8,
+      26,
+      24,
+      11
+    ]
+  ],
+  "structural_flags": {
+    "has_moiety_split": false,
+    "has_summary_row": true,
+    "has_round_100_totals": false
+  }
+}

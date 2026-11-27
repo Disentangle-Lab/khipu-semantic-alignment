@@ -1,0 +1,10 @@
+cohort,schema_id,k,n_khipus_tested,mean_A_JSD,max_A_JSD,p_agg_null1,null2_mode
+primary_86,chucuito_1567_moiety_k5,5,9,0.762,0.8653,0.73333,empirical_corpus(n=44)
+primary_86,huaraz_1532_full_k7,7,5,0.8406,0.9289,0.2381,empirical_corpus(n=27)
+primary_86,huaraz_1558_demo_k6,6,10,0.8467,0.9353,0.32222,empirical_corpus(n=46)
+primary_86,huaraz_1558_full_k7,7,5,0.8208,0.9316,0.40833,empirical_corpus(n=27)
+primary_86,sacaca_1551_k22,22,1,0.4028,0.4028,0.21036,within_row_shuf(n_pool=3)
+sens_H3b_only,chucuito_1567_moiety_k5,5,4,0.7995,0.896,0.7,empirical_corpus(n=44)
+sens_H3b_only,huaraz_1532_full_k7,7,4,0.749,0.8453,0.26508,empirical_corpus(n=27)
+sens_H3b_only,huaraz_1558_demo_k6,6,10,0.8431,0.9409,0.79444,empirical_corpus(n=46)
+sens_H3b_only,huaraz_1558_full_k7,7,4,0.7872,0.865,0.02659,empirical_corpus(n=27)

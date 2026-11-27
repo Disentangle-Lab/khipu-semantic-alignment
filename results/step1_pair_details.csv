@@ -1,0 +1,315 @@
+metric,k,khipu_a,khipu_b,site_a,site_b,same_site,same_cataloger,similarity
+primary_86__S1a_color_modal_orient_inv,3,KH0112,KH0135,Pachacamac,Pachacamac,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0112,KH0463,Pachacamac,Pachacamac,True,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0112,KH0499,Pachacamac,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0112,KH0503,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0112,KH0505,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0112,KH0506,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0112,KH0510,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0112,KH0511,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0112,KH0512,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0112,KH0513,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0112,KH0514,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0135,KH0463,Pachacamac,Pachacamac,True,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0135,KH0499,Pachacamac,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0135,KH0503,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0135,KH0505,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0135,KH0506,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0135,KH0510,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0135,KH0511,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0135,KH0512,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0135,KH0513,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0135,KH0514,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0463,KH0499,Pachacamac,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0463,KH0503,Pachacamac,Incahuasi,False,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0463,KH0505,Pachacamac,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0463,KH0506,Pachacamac,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0463,KH0510,Pachacamac,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0463,KH0511,Pachacamac,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0463,KH0512,Pachacamac,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0463,KH0513,Pachacamac,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0463,KH0514,Pachacamac,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0499,KH0503,Incahuasi,Incahuasi,True,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0499,KH0505,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0499,KH0506,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0499,KH0510,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0499,KH0511,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0499,KH0512,Incahuasi,Incahuasi,True,True,0.0
+primary_86__S1a_color_modal_orient_inv,3,KH0499,KH0513,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0499,KH0514,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0503,KH0505,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0503,KH0506,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0503,KH0510,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0503,KH0511,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0503,KH0512,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0503,KH0513,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0503,KH0514,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0505,KH0506,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1a_color_modal_orient_inv,3,KH0505,KH0510,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1a_color_modal_orient_inv,3,KH0505,KH0511,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0505,KH0512,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0505,KH0513,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0505,KH0514,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1a_color_modal_orient_inv,3,KH0506,KH0510,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1a_color_modal_orient_inv,3,KH0506,KH0511,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0506,KH0512,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0506,KH0513,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0506,KH0514,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1a_color_modal_orient_inv,3,KH0510,KH0511,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0510,KH0512,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0510,KH0513,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0510,KH0514,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1a_color_modal_orient_inv,3,KH0511,KH0512,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0511,KH0513,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0511,KH0514,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0512,KH0513,Incahuasi,Incahuasi,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,3,KH0512,KH0514,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,3,KH0513,KH0514,Incahuasi,Incahuasi,True,True,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,4,KH0160,KH0165,Pachacamac,Ocucaje,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0160,KH0195,Pachacamac,near Lima,False,False,0.25
+primary_86__S1a_color_modal_orient_inv,4,KH0160,KH0101,Pachacamac,Huacho,False,True,0.25
+primary_86__S1a_color_modal_orient_inv,4,KH0160,KH0433,Pachacamac,Huacho,False,True,0.25
+primary_86__S1a_color_modal_orient_inv,4,KH0160,KH0502,Pachacamac,Incahuasi,False,True,0.25
+primary_86__S1a_color_modal_orient_inv,4,KH0160,KH0608,Pachacamac,Incahuasi,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0160,KH0530,Pachacamac,"Armatambo, Huaca San Pedro",False,True,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0165,KH0195,Ocucaje,near Lima,False,False,0.25
+primary_86__S1a_color_modal_orient_inv,4,KH0165,KH0101,Ocucaje,Huacho,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0165,KH0433,Ocucaje,Huacho,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0165,KH0502,Ocucaje,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0165,KH0608,Ocucaje,Incahuasi,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0165,KH0530,Ocucaje,"Armatambo, Huaca San Pedro",False,True,0.25
+primary_86__S1a_color_modal_orient_inv,4,KH0195,KH0101,near Lima,Huacho,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0195,KH0433,near Lima,Huacho,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0195,KH0502,near Lima,Incahuasi,False,False,0.25
+primary_86__S1a_color_modal_orient_inv,4,KH0195,KH0608,near Lima,Incahuasi,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0195,KH0530,near Lima,"Armatambo, Huaca San Pedro",False,False,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0101,KH0433,Huacho,Huacho,True,True,0.25
+primary_86__S1a_color_modal_orient_inv,4,KH0101,KH0502,Huacho,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0101,KH0608,Huacho,Incahuasi,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0101,KH0530,Huacho,"Armatambo, Huaca San Pedro",False,True,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0433,KH0502,Huacho,Incahuasi,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0433,KH0608,Huacho,Incahuasi,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0433,KH0530,Huacho,"Armatambo, Huaca San Pedro",False,True,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0502,KH0608,Incahuasi,Incahuasi,True,False,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0502,KH0530,Incahuasi,"Armatambo, Huaca San Pedro",False,True,0.0
+primary_86__S1a_color_modal_orient_inv,4,KH0608,KH0530,Incahuasi,"Armatambo, Huaca San Pedro",False,False,0.0
+primary_86__S1a_color_modal_orient_inv,5,KH0247,KH0111,Leymebamba,Between Ica and Pisco,False,True,0.2
+primary_86__S1a_color_modal_orient_inv,5,KH0247,KH0123,Leymebamba,Ica,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,5,KH0247,KH0192,Leymebamba,Pachacamac,False,True,0.2
+primary_86__S1a_color_modal_orient_inv,5,KH0247,KH0549,Leymebamba,Pachacamac,False,False,0.2
+primary_86__S1a_color_modal_orient_inv,5,KH0247,KH0437,Leymebamba,Pachacamac,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,5,KH0247,KH0446,Leymebamba,Pachacamac,False,True,0.2
+primary_86__S1a_color_modal_orient_inv,5,KH0111,KH0123,Between Ica and Pisco,Ica,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,5,KH0111,KH0192,Between Ica and Pisco,Pachacamac,False,True,0.2
+primary_86__S1a_color_modal_orient_inv,5,KH0111,KH0549,Between Ica and Pisco,Pachacamac,False,False,0.2
+primary_86__S1a_color_modal_orient_inv,5,KH0111,KH0437,Between Ica and Pisco,Pachacamac,False,True,0.2
+primary_86__S1a_color_modal_orient_inv,5,KH0111,KH0446,Between Ica and Pisco,Pachacamac,False,True,0.2
+primary_86__S1a_color_modal_orient_inv,5,KH0123,KH0192,Ica,Pachacamac,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,5,KH0123,KH0549,Ica,Pachacamac,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,5,KH0123,KH0437,Ica,Pachacamac,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,5,KH0123,KH0446,Ica,Pachacamac,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,5,KH0192,KH0549,Pachacamac,Pachacamac,True,False,0.2
+primary_86__S1a_color_modal_orient_inv,5,KH0192,KH0437,Pachacamac,Pachacamac,True,True,0.0
+primary_86__S1a_color_modal_orient_inv,5,KH0192,KH0446,Pachacamac,Pachacamac,True,True,0.2
+primary_86__S1a_color_modal_orient_inv,5,KH0549,KH0437,Pachacamac,Pachacamac,True,False,0.2
+primary_86__S1a_color_modal_orient_inv,5,KH0549,KH0446,Pachacamac,Pachacamac,True,False,0.6
+primary_86__S1a_color_modal_orient_inv,5,KH0437,KH0446,Pachacamac,Pachacamac,True,True,0.0
+primary_86__S1a_color_modal_orient_inv,6,KH0138,KH0105,Marquez,Peru,False,False,0.6666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0138,KH0535,Marquez,Pachacamac,False,False,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0138,KH0544,Marquez,Pachacamac,False,False,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0138,KH0469,Marquez,Huacho,False,True,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0138,KH0470,Marquez,Huacho,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,6,KH0138,KH0527,Marquez,"Armatambo, Huaca San Pedro",False,True,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0105,KH0535,Peru,Pachacamac,False,False,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0105,KH0544,Peru,Pachacamac,False,False,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,6,KH0105,KH0469,Peru,Huacho,False,False,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0105,KH0470,Peru,Huacho,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,6,KH0105,KH0527,Peru,"Armatambo, Huaca San Pedro",False,False,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0535,KH0544,Pachacamac,Pachacamac,True,True,0.3333333333333333
+primary_86__S1a_color_modal_orient_inv,6,KH0535,KH0469,Pachacamac,Huacho,False,False,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0535,KH0470,Pachacamac,Huacho,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,6,KH0535,KH0527,Pachacamac,"Armatambo, Huaca San Pedro",False,False,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0544,KH0469,Pachacamac,Huacho,False,False,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0544,KH0470,Pachacamac,Huacho,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,6,KH0544,KH0527,Pachacamac,"Armatambo, Huaca San Pedro",False,False,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0469,KH0470,Huacho,Huacho,True,True,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0469,KH0527,Huacho,"Armatambo, Huaca San Pedro",False,True,0.16666666666666666
+primary_86__S1a_color_modal_orient_inv,6,KH0470,KH0527,Huacho,"Armatambo, Huaca San Pedro",False,True,0.0
+primary_86__S1a_color_modal_orient_inv,8,KH0134,KH0151,Ica,Ica,True,True,0.0
+primary_86__S1a_color_modal_orient_inv,8,KH0134,KH0440,Ica,Pachacamac,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,8,KH0134,KH0565,Ica,"Ullujaya, Ocucaje, Ica",False,False,0.0
+primary_86__S1a_color_modal_orient_inv,8,KH0151,KH0440,Ica,Pachacamac,False,True,0.125
+primary_86__S1a_color_modal_orient_inv,8,KH0151,KH0565,Ica,"Ullujaya, Ocucaje, Ica",False,False,0.25
+primary_86__S1a_color_modal_orient_inv,8,KH0440,KH0565,Pachacamac,"Ullujaya, Ocucaje, Ica",False,False,0.375
+primary_86__S1a_color_modal_orient_inv,9,KH0152,KH0156,Nazca,Nazca,True,True,0.2222222222222222
+primary_86__S1a_color_modal_orient_inv,9,KH0152,KH0559,Nazca,Pachacamac,False,False,0.1111111111111111
+primary_86__S1a_color_modal_orient_inv,9,KH0152,KH0562,Nazca,Pachacamac,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,9,KH0152,KH0447,Nazca,Pisco,False,True,0.1111111111111111
+primary_86__S1a_color_modal_orient_inv,9,KH0152,KH0461,Nazca,Ica,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,9,KH0156,KH0559,Nazca,Pachacamac,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,9,KH0156,KH0562,Nazca,Pachacamac,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,9,KH0156,KH0447,Nazca,Pisco,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,9,KH0156,KH0461,Nazca,Ica,False,True,0.0
+primary_86__S1a_color_modal_orient_inv,9,KH0559,KH0562,Pachacamac,Pachacamac,True,True,0.2222222222222222
+primary_86__S1a_color_modal_orient_inv,9,KH0559,KH0447,Pachacamac,Pisco,False,False,0.1111111111111111
+primary_86__S1a_color_modal_orient_inv,9,KH0559,KH0461,Pachacamac,Ica,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,9,KH0562,KH0447,Pachacamac,Pisco,False,False,0.0
+primary_86__S1a_color_modal_orient_inv,9,KH0562,KH0461,Pachacamac,Ica,False,False,0.1111111111111111
+primary_86__S1a_color_modal_orient_inv,9,KH0447,KH0461,Pisco,Ica,False,True,0.2222222222222222
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0112,KH0135,Pachacamac,Pachacamac,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0112,KH0463,Pachacamac,Pachacamac,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0112,KH0499,Pachacamac,Incahuasi,False,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0112,KH0503,Pachacamac,Incahuasi,False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0112,KH0505,Pachacamac,Incahuasi,False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0112,KH0506,Pachacamac,Incahuasi,False,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0112,KH0510,Pachacamac,Incahuasi,False,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0112,KH0511,Pachacamac,Incahuasi,False,True,0.8660254037844387
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0112,KH0512,Pachacamac,Incahuasi,False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0112,KH0513,Pachacamac,Incahuasi,False,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0112,KH0514,Pachacamac,Incahuasi,False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0135,KH0463,Pachacamac,Pachacamac,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0135,KH0499,Pachacamac,Incahuasi,False,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0135,KH0503,Pachacamac,Incahuasi,False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0135,KH0505,Pachacamac,Incahuasi,False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0135,KH0506,Pachacamac,Incahuasi,False,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0135,KH0510,Pachacamac,Incahuasi,False,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0135,KH0511,Pachacamac,Incahuasi,False,True,0.8660254037844387
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0135,KH0512,Pachacamac,Incahuasi,False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0135,KH0513,Pachacamac,Incahuasi,False,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0135,KH0514,Pachacamac,Incahuasi,False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0463,KH0499,Pachacamac,Incahuasi,False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0463,KH0503,Pachacamac,Incahuasi,False,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0463,KH0505,Pachacamac,Incahuasi,False,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0463,KH0506,Pachacamac,Incahuasi,False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0463,KH0510,Pachacamac,Incahuasi,False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0463,KH0511,Pachacamac,Incahuasi,False,True,0.8660254037844387
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0463,KH0512,Pachacamac,Incahuasi,False,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0463,KH0513,Pachacamac,Incahuasi,False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0463,KH0514,Pachacamac,Incahuasi,False,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0499,KH0503,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0499,KH0505,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0499,KH0506,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0499,KH0510,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0499,KH0511,Incahuasi,Incahuasi,True,True,0.8660254037844387
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0499,KH0512,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0499,KH0513,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0499,KH0514,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0503,KH0505,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0503,KH0506,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0503,KH0510,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0503,KH0511,Incahuasi,Incahuasi,True,True,0.8660254037844387
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0503,KH0512,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0503,KH0513,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0503,KH0514,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0505,KH0506,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0505,KH0510,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0505,KH0511,Incahuasi,Incahuasi,True,True,0.8660254037844387
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0505,KH0512,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0505,KH0513,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0505,KH0514,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0506,KH0510,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0506,KH0511,Incahuasi,Incahuasi,True,True,0.8660254037844387
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0506,KH0512,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0506,KH0513,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0506,KH0514,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0510,KH0511,Incahuasi,Incahuasi,True,True,0.8660254037844387
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0510,KH0512,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0510,KH0513,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0510,KH0514,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0511,KH0512,Incahuasi,Incahuasi,True,True,0.8660254037844387
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0511,KH0513,Incahuasi,Incahuasi,True,True,0.8660254037844387
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0511,KH0514,Incahuasi,Incahuasi,True,True,0.8660254037844387
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0512,KH0513,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0512,KH0514,Incahuasi,Incahuasi,True,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,3,KH0513,KH0514,Incahuasi,Incahuasi,True,True,0.5
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0160,KH0165,Pachacamac,Ocucaje,False,True,0.0
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0160,KH0195,Pachacamac,near Lima,False,False,0.7999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0160,KH0101,Pachacamac,Huacho,False,True,0.39999999999999997
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0160,KH0433,Pachacamac,Huacho,False,True,0.19999999999999998
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0160,KH0502,Pachacamac,Incahuasi,False,True,0.19999999999999998
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0160,KH0608,Pachacamac,Incahuasi,False,False,0.19999999999999998
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0160,KH0530,Pachacamac,"Armatambo, Huaca San Pedro",False,True,0.39999999999999997
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0165,KH0195,Ocucaje,near Lima,False,False,-0.39999999999999997
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0165,KH0101,Ocucaje,Huacho,False,True,-0.19999999999999998
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0165,KH0433,Ocucaje,Huacho,False,True,0.39999999999999997
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0165,KH0502,Ocucaje,Incahuasi,False,True,0.39999999999999997
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0165,KH0608,Ocucaje,Incahuasi,False,False,0.39999999999999997
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0165,KH0530,Ocucaje,"Armatambo, Huaca San Pedro",False,True,-0.19999999999999998
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0195,KH0101,near Lima,Huacho,False,False,0.7999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0195,KH0433,near Lima,Huacho,False,False,0.39999999999999997
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0195,KH0502,near Lima,Incahuasi,False,False,0.39999999999999997
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0195,KH0608,near Lima,Incahuasi,False,False,0.39999999999999997
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0195,KH0530,near Lima,"Armatambo, Huaca San Pedro",False,False,0.7999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0101,KH0433,Huacho,Huacho,True,True,0.7999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0101,KH0502,Huacho,Incahuasi,False,True,0.7999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0101,KH0608,Huacho,Incahuasi,False,False,0.7999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0101,KH0530,Huacho,"Armatambo, Huaca San Pedro",False,True,1.0
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0433,KH0502,Huacho,Incahuasi,False,True,0.6000000000000001
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0433,KH0608,Huacho,Incahuasi,False,False,0.6000000000000001
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0433,KH0530,Huacho,"Armatambo, Huaca San Pedro",False,True,0.7999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0502,KH0608,Incahuasi,Incahuasi,True,False,1.0
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0502,KH0530,Incahuasi,"Armatambo, Huaca San Pedro",False,True,0.7999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,4,KH0608,KH0530,Incahuasi,"Armatambo, Huaca San Pedro",False,False,0.7999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0247,KH0111,Leymebamba,Between Ica and Pisco,False,True,0.0
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0247,KH0123,Leymebamba,Ica,False,True,0.3
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0247,KH0192,Leymebamba,Pachacamac,False,True,0.09999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0247,KH0549,Leymebamba,Pachacamac,False,False,0.8999999999999998
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0247,KH0437,Leymebamba,Pachacamac,False,True,0.19999999999999998
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0247,KH0446,Leymebamba,Pachacamac,False,True,0.7999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0111,KH0123,Between Ica and Pisco,Ica,False,True,0.8999999999999998
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0111,KH0192,Between Ica and Pisco,Pachacamac,False,True,0.3
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0111,KH0549,Between Ica and Pisco,Pachacamac,False,False,0.19999999999999998
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0111,KH0437,Between Ica and Pisco,Pachacamac,False,True,0.6
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0111,KH0446,Between Ica and Pisco,Pachacamac,False,True,0.09999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0123,KH0192,Ica,Pachacamac,False,True,0.49999999999999994
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0123,KH0549,Ica,Pachacamac,False,False,0.49999999999999994
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0123,KH0437,Ica,Pachacamac,False,True,0.7
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0123,KH0446,Ica,Pachacamac,False,True,0.3
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0192,KH0549,Pachacamac,Pachacamac,True,False,0.0
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0192,KH0437,Pachacamac,Pachacamac,True,True,0.8999999999999998
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0192,KH0446,Pachacamac,Pachacamac,True,True,0.09999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0549,KH0437,Pachacamac,Pachacamac,True,False,0.09999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0549,KH0446,Pachacamac,Pachacamac,True,False,0.8999999999999998
+primary_86__S1b_num_rank_okr_orient_inv,5,KH0437,KH0446,Pachacamac,Pachacamac,True,True,0.0
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0138,KH0105,Marquez,Peru,False,False,0.48571428571428577
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0138,KH0535,Marquez,Pachacamac,False,False,0.3714285714285715
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0138,KH0544,Marquez,Pachacamac,False,False,0.17393131069573456
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0138,KH0469,Marquez,Huacho,False,True,0.4285714285714286
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0138,KH0470,Marquez,Huacho,False,True,0.48571428571428577
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0138,KH0527,Marquez,"Armatambo, Huaca San Pedro",False,True,0.5428571428571429
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0105,KH0535,Peru,Pachacamac,False,False,0.6
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0105,KH0544,Peru,Pachacamac,False,False,0.753702346348183
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0105,KH0469,Peru,Huacho,False,False,0.5428571428571429
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0105,KH0470,Peru,Huacho,False,False,0.3142857142857143
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0105,KH0527,Peru,"Armatambo, Huaca San Pedro",False,False,0.5428571428571429
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0535,KH0544,Pachacamac,Pachacamac,True,True,0.8986451052612952
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0535,KH0469,Pachacamac,Huacho,False,False,-0.08571428571428573
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0535,KH0470,Pachacamac,Huacho,False,False,0.2
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0535,KH0527,Pachacamac,"Armatambo, Huaca San Pedro",False,False,0.028571428571428574
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0544,KH0469,Pachacamac,Huacho,False,False,0.28988551782622424
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0544,KH0470,Pachacamac,Huacho,False,False,-0.02898855178262242
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0544,KH0527,Pachacamac,"Armatambo, Huaca San Pedro",False,False,-0.02898855178262242
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0469,KH0470,Huacho,Huacho,True,True,0.8857142857142858
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0469,KH0527,Huacho,"Armatambo, Huaca San Pedro",False,True,0.2
+primary_86__S1b_num_rank_okr_orient_inv,6,KH0470,KH0527,Huacho,"Armatambo, Huaca San Pedro",False,True,0.08571428571428573
+primary_86__S1b_num_rank_okr_orient_inv,8,KH0134,KH0151,Ica,Ica,True,True,0.38324040381224284
+primary_86__S1b_num_rank_okr_orient_inv,8,KH0134,KH0440,Ica,Pachacamac,False,True,0.19047619047619052
+primary_86__S1b_num_rank_okr_orient_inv,8,KH0134,KH0565,Ica,"Ullujaya, Ocucaje, Ica",False,False,-0.17186001564908274
+primary_86__S1b_num_rank_okr_orient_inv,8,KH0151,KH0440,Ica,Pachacamac,False,True,0.13173888881045848
+primary_86__S1b_num_rank_okr_orient_inv,8,KH0151,KH0565,Ica,"Ullujaya, Ocucaje, Ica",False,False,0.3457844344317974
+primary_86__S1b_num_rank_okr_orient_inv,8,KH0440,KH0565,Pachacamac,"Ullujaya, Ocucaje, Ica",False,False,0.5033043315437423
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0152,KH0156,Nazca,Nazca,True,True,0.9333333333333332
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0152,KH0559,Nazca,Pachacamac,False,False,0.5666666666666667
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0152,KH0562,Nazca,Pachacamac,False,False,0.39999999999999997
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0152,KH0447,Nazca,Pisco,False,True,0.4767036572248992
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0152,KH0461,Nazca,Ica,False,True,0.6333333333333333
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0156,KH0559,Nazca,Pachacamac,False,False,0.5166666666666667
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0156,KH0562,Nazca,Pachacamac,False,False,0.19999999999999998
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0156,KH0447,Nazca,Pisco,False,True,0.36604030822626193
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0156,KH0461,Nazca,Ica,False,True,0.4666666666666666
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0559,KH0562,Pachacamac,Pachacamac,True,True,0.3
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0559,KH0447,Pachacamac,Pisco,False,False,0.2638895245352121
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0559,KH0461,Pachacamac,Ica,False,False,0.18333333333333335
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0562,KH0447,Pachacamac,Pisco,False,False,0.5362916143780116
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0562,KH0461,Pachacamac,Ica,False,False,0.7999999999999999
+primary_86__S1b_num_rank_okr_orient_inv,9,KH0447,KH0461,Pisco,Ica,False,True,0.6214172674538865

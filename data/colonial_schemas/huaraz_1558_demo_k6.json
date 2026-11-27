@@ -1,0 +1,90 @@
+{
+  "schema_id": "huaraz_1558_demo_k6",
+  "title": "Visita de Huaraz Demographic Census by Principal (1558, 6 person categories)",
+  "source_citation": "Textos Andinos m_63 (Visita de los repartimientos de Guaraz y Llaguaraz, Lic. Diego Álvarez 1558; KFG textosbook)",
+  "region": "Huaraz, Ancash (Callejón de Huaylas / Santa Basin)",
+  "year": 1558,
+  "domain": "census",
+  "role": "step3_primary",
+  "editorial_notes": "Verbatim counts for all 7 principales recorded in m_63, taking the 6 strictly demographic person categories in verbatim recitation order (excluding casas). Martín Yarollivia reports no mozos (0). Document ends with an explicit repartimiento-wide summary block.",
+  "column_names": [
+    "casados",
+    "mozos",
+    "mozas",
+    "muchachos_6_13",
+    "ninos_0_5",
+    "viejos_viudos_50plus"
+  ],
+  "row_names": [
+    "Don_Diego_Chinchecaque",
+    "Santiago_Xulcallivia",
+    "Martin_Yarollivia",
+    "Geronimo_Rimaycochache",
+    "Don_Gonzalo_Xulcacollas",
+    "Domingo_Vilcacaque",
+    "Don_Fernando_Paverr"
+  ],
+  "value_matrix": [
+    [
+      27,
+      2,
+      12,
+      28,
+      24,
+      14
+    ],
+    [
+      41,
+      4,
+      11,
+      30,
+      34,
+      22
+    ],
+    [
+      34,
+      0,
+      7,
+      21,
+      18,
+      22
+    ],
+    [
+      39,
+      3,
+      5,
+      35,
+      33,
+      23
+    ],
+    [
+      32,
+      2,
+      8,
+      26,
+      24,
+      24
+    ],
+    [
+      27,
+      3,
+      11,
+      21,
+      17,
+      21
+    ],
+    [
+      43,
+      5,
+      8,
+      26,
+      24,
+      11
+    ]
+  ],
+  "structural_flags": {
+    "has_moiety_split": false,
+    "has_summary_row": true,
+    "has_round_100_totals": false
+  }
+}

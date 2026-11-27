@@ -1,0 +1,98 @@
+{
+  "schema_id": "huaraz_1532_full_k7",
+  "title": "Visita de Huaraz Pre-Conquest / Early Census by Principal (m_60, 7 complete principales)",
+  "source_citation": "Textos Andinos m_60 (Visita de los repartimientos de Guaraz y Llaguaraz, Lic. Diego Álvarez; KFG textosbook)",
+  "region": "Huaraz, Ancash (Callejón de Huaylas / Santa Basin)",
+  "year": 1532,
+  "domain": "census",
+  "role": "step3_primary",
+  "editorial_notes": "Verbatim 7-column counts for the 7 principales with complete declarations in m_60. Principal #1 (Don Hernando Guamacochache) lacks the initial casas/casados header line in the surviving text and is excluded rather than imputed; Pedro Yana (mitimaes Yauyos, 8 casas, 5 casados, 3 mozos, 0 mozas, 4 muchachos, 14 ninos, 5 viudos) is omitted from the 7-row core because mozas is unmentioned.",
+  "column_names": [
+    "casas",
+    "casados",
+    "mozos",
+    "mozas",
+    "muchachos_6_13",
+    "ninos_0_5",
+    "viejos_viudos_50plus"
+  ],
+  "row_names": [
+    "Don_Martin_Guache",
+    "Santiago_Pomaguaman",
+    "Don_Antonio_Paucarllangue",
+    "Don_Gonzalo_Yaroyana",
+    "Don_Diego_Rahe",
+    "Don_Pedro_Ricari",
+    "Don_Felipe_Caxayaure"
+  ],
+  "value_matrix": [
+    [
+      45,
+      32,
+      5,
+      12,
+      27,
+      56,
+      27
+    ],
+    [
+      88,
+      59,
+      6,
+      22,
+      35,
+      86,
+      33
+    ],
+    [
+      37,
+      42,
+      11,
+      8,
+      22,
+      65,
+      19
+    ],
+    [
+      48,
+      44,
+      7,
+      13,
+      23,
+      49,
+      14
+    ],
+    [
+      31,
+      25,
+      2,
+      6,
+      14,
+      25,
+      5
+    ],
+    [
+      57,
+      36,
+      3,
+      16,
+      31,
+      80,
+      31
+    ],
+    [
+      69,
+      46,
+      5,
+      9,
+      11,
+      55,
+      22
+    ]
+  ],
+  "structural_flags": {
+    "has_moiety_split": false,
+    "has_summary_row": false,
+    "has_round_100_totals": false
+  }
+}
