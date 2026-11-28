@@ -25,7 +25,7 @@ def test_kfg_oos_strictly_disjoint_from_okr():
 
 
 def test_phase2a_doseresponse_monotonic_and_significant():
-    dr = pd.read_csv(RESULTS_DIR / "phase2a_law5_vertical_doseresponse.csv")
+    dr = pd.read_csv(RESULTS_DIR / "phase2a_reg5_vertical_doseresponse.csv")
     assert len(dr) == 4
     fracs = dr["frac_top_gt_bot"].tolist()
     # Strictly monotonic climb from 0cm negative control to >=3cm
@@ -35,7 +35,7 @@ def test_phase2a_doseresponse_monotonic_and_significant():
 
 
 def test_phase2a_oos_replication_tables_present():
-    l1 = pd.read_csv(RESULTS_DIR / "phase2a_law1_slot_presence_okr_oos.csv")
+    l1 = pd.read_csv(RESULTS_DIR / "phase2a_reg1_slot_presence_okr_oos.csv")
     oos = l1[l1["cohort"] == "KFG_OOS"]
     assert len(oos) >= 5
     assert int((oos["q_bh"] < 0.05).sum()) >= 4

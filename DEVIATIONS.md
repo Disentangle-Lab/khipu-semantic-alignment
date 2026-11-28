@@ -19,4 +19,27 @@ This document records every deviation between the frozen Phase 1 protocol ([`PRE
 
 1. **Selection timing:** All five colonial JSON schemas (`data/colonial_schemas/*.json`) were constructed by [`src/build_colonial_schemas.py`](src/build_colonial_schemas.py) **before** `step3_colonial_alignment.py` was written or executed, with zero inspection of alignment scores against any khipu. Inclusion was determined solely by whether a verbatim recitation in `khipufieldguide.com/textosbook` contained an explicit rectangular multi-row, multi-column numerical table requiring zero imputation of missing cells.
 2. **Non-independence of the three Huaraz schemas:** The three Huaraz schemas (`huaraz_1558_demo_k6`, `huaraz_1558_full_k7`, and `huaraz_1532_full_k7`) derive from the same valley and administrative tradition, and **`huaraz_1558_demo_k6` is a strict 6-column subset of `huaraz_1558_full_k7`**. Consequently, the `30` pairs in `primary_86` and `22` pairs in `sens_H3b_only` are **not mutually independent**; the effective number of independent archival traditions tested is **3** (Chucuito, Huaraz, Sacaca), not 5.
-3. **Power interpretation of the `0 / 30` null:** Based on [`results/step3_power_analysis.csv`](results/step3_power_analysis.csv), `A_JSD` detects perturbed self-matches (`p_eval < 0.05`) with **`96.7–100%` power up to `20%` multiplicative noise (`σ = 0.20`)** and **`71.7–84.2%` power up to `50%` noise (`σ = 0.50`)** across `k ∈ {5, 6, 7}`. Under the stricter `m = 30` FDR threshold (`p < 0.00167`), power is `84.2–88.3%` at `σ = 0.10` and `59.2–70.8%` at `σ = 0.20` for `k = 5` and `k = 7`, but **0% for an isolated `k = 6` match** due to the `2/720` Null 1 discreteness floor noted above.
+3. **Power interpretation of the `0 / 30` null:** Based on [`results/step3_power_analysis.csv`](results/step3_power_analysis.csv), `A_JSD` detects perturbed self-matches (`p_eval < 0.05`) with **`96.7–100%` nominal power up to `20%` multiplicative noise (`σ = 0.20`)** and **`71.7–84.2%` power up to `50%` noise (`σ = 0.50`)** across `k ∈ {5, 6, 7}`. Under the stricter `m = 30` BH-FDR threshold (`p < 0.00167`, the actual decision rule for `0 / 30`), power is `84.2–88.3%` at `σ = 0.10` and **`70.8%` (`k = 5`) / `59.2%` (`k = 7`) at `σ = 0.20`**, but **`0%` for an isolated `k = 6` match** due to the `2/720` Null 1 discreteness floor noted above.
+
+---
+
+## Post-v1.0.0 Documentation, Terminology & Artifact-Rename Log (`2026-11-27`, `v1.0.1`)
+
+No Phase 1 empirical numbers or frozen protocol contents were altered; [`PREREGISTRATION.md`](PREREGISTRATION.md) remains byte-for-byte identical to [`PREREGISTRATION.sha256`](PREREGISTRATION.sha256) (`ed1b14f8cebd58e73bec7cf6ef3e2d7a508a6dcc944124ff35c2a2ef83beb8d3`).
+
+1. **Terminology alignment (`Pre-Registered` → `Pre-Specified`):** Because freeze and execution occurred on the same calendar date without a prior third-party timestamp, public titles (`README.md`, `CITATION.cff`, `pyproject.toml`, `.zenodo.json`, `paper/main.tex`) were updated to **"Pre-Specified"** while preserving the immutable filename `PREREGISTRATION.md` and its verified SHA-256 digest.
+2. **Phase 2A artifact rename (`law*` / `5laws` → `reg*` / `candidate_regularities`, `2026-11-27`):** To eliminate mixed confirmatory/exploratory terminology (`"laws"` vs. `"candidate regularities"`), eight Phase 2A output files were renamed without changing underlying data values:
+
+| Former Filename (`v1.0.0`) | Renamed Filename (`v1.0.1`, `2026-11-27`) |
+| :--- | :--- |
+| `figures/fig5_phase2a_subsidiary_5laws.png` | `figures/fig5_phase2a_candidate_regularities.png` |
+| `results/phase2a_subsidiary_5laws_summary.csv` | `results/phase2a_candidate_regularities_summary.csv` |
+| `results/phase2a_law1_slot_presence_okr_oos.csv` | `results/phase2a_reg1_slot_presence_okr_oos.csv` |
+| `results/phase2a_law2_4th_axis_color.csv` | `results/phase2a_reg2_4th_axis_color.csv` |
+| `results/phase2a_law3_5th_axis_value.csv` | `results/phase2a_reg3_5th_axis_value.csv` |
+| `results/phase2a_law4_partwhole_and_decay.csv` | `results/phase2a_reg4_partwhole_and_decay.csv` |
+| `results/phase2a_law5_vertical_doseresponse.csv` | `results/phase2a_reg5_vertical_doseresponse.csv` |
+| `results/phase2a_law5_cataloger_audit.csv` | `results/phase2a_reg5_cataloger_audit.csv` |
+
+3. **R5 primary inference & Holm recomputation (`2026-11-27`):** In `results/phase2a_dedup_effect_sizes.csv`, R5's primary test was promoted from the pair-level binomial (`1,070` non-independent pairs within `137` khipus, `p = 2.49e-23`) to the conservative **khipu-level Wilcoxon signed-rank test** (`84/137` khipus, `p = 1.06e-03`), yielding updated 5-test Holm `p_holm ≤ 2.12e-03` (with explicit disclosure that post-hoc Holm across 5 tests underestimates broader exploratory multiplicity).
+4. **Step 1 table reconciliation (`2026-11-27`):** Reconciled `RESULTS.md` Step 1 `S1a` modal-match and `S1b` KFG Excel summary cells directly against `results/step1_archive_tests.csv` (notably `S1a` modal `LOO_no_Pachacamac p = 0.2853`, previously stale at `0.0680`).

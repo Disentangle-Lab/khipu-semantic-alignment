@@ -1,4 +1,4 @@
 finding,n_cells,exact_matches,pct_exact,pearson_r,spearman_r,perm_p,physical_lengths,classification
-Berlin Triptych Half 1 (UR1175 P1 <-> UR233),104,88,84.6%,0.9823,0.9795,<0.0001,65.0 vs 40.0 cm (MW p=6.21e-28),Distinct companion copy (k=5 -> k=6 +0 spacer)
-Berlin Triptych Half 2 (UR1175 P3 <-> UR232),105,73,69.5%,0.9446,0.9565,<0.0001,63.0 vs 51.5 cm (MW p=1.20e-06),Distinct companion copy (k=5 -> k=6 +0 spacer)
-Unflagged Reversed Dup (KH0121 <-> KH0473),29,27,93.1%,0.9767,0.9332,reversed,66.5 vs 66.2 cm (med |diff|=1.5 cm),Same physical Berlin artifact (restores Marquez prov)
+Putative Berlin Triptych Half 1 (UR1175 P1 <-> UR233),104,88,84.6%,0.9823,0.9795,<=0.0001 (post-selection),65.0 vs 40.0 cm (MW p=6.21e-28),Putative distinct companion copy (k=5 -> k=6 +0 spacer; pending museum verification)
+Putative Berlin Triptych Half 2 (UR1175 P3 <-> UR232),105,73,69.5%,0.9446,0.9565,<=0.0001 (post-selection),63.0 vs 51.5 cm (MW p=1.20e-06),Putative distinct companion copy (k=5 -> k=6 +0 spacer; pending museum verification)
+Putative Reversed Dup (KH0121 <-> KH0473),29,27,93.1%,0.9767,0.9332,reversed (descriptive),66.5 vs 66.2 cm (med |diff|=1.5 cm),Putative same physical Berlin artifact (suggests Marquez prov; pending museum verification)

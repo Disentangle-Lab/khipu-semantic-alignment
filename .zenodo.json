@@ -1,0 +1,50 @@
+{
+  "title": "Pre-Specified Archive Invariance, Candidate Subsidiary Regularities, and Putative Split-Ledger Links in Inka Khipus",
+  "upload_type": "software",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Contreras, Maria",
+      "affiliation": "Disentangle Lab",
+      "orcid": "0009-0003-0749-4971"
+    }
+  ],
+  "description": "Reproducible code, internal pre-specification protocol (PREREGISTRATION.md, frozen on 2026-11-27 without prior external timestamp), deviation log, and derived outputs for a two-phase study of Inka khipus across OKR v2.1.0 (n = 611) and disjoint KFG-only Excel workbooks (n = 36). Phase 1 reports internally pre-specified inter-archive invariance (primary modal color match and OKR numeric rank plus JSD robustness), explicit tabular outlier accounting (21/86), and a null result (0/30 BH-FDR) against five highland Textos Andinos schemas calibrated with BH-FDR and nominal power plus proxy controls. Phase 2 (exploratory) documents five candidate hierarchical regularities of subsidiary cords evaluated at the khipu level with blind KFG out-of-sample replication, regional archive variation across eight sites, and a descriptive 611 x 611 rare-number sweep (538 filtered pairs) surfacing a putative three-khipu Berlin split-ledger link (VA 42518 <-> VA 63038 b / VA 63038(B)) and a putative reversed physical duplicate (VA 24370(B) <-> VA 66834), both pending museum verification.\n\nLICENSING & EXCLUSION NOTICE: Zenodo record-level metadata displays CC-BY-4.0 (covering repository-authored derived CSVs, figures, documentation, and manuscript). Software code (src/, tests/, scripts/) is licensed under MIT (see LICENSE); vendored companion files in data/upstream/ retain their upstream MIT licenses (see DATA_LICENSE.md). IMPORTANT: Derived colonial numerical matrices in data/colonial_schemas/*.json (from Textos Andinos, Parssinen & Kiviharju 2004 / KFG textosbook) are explicitly EXCLUDED from the CC-BY-4.0 grant pending written redistribution permission from copyright holders.",
+  "keywords": [
+    "Inka khipu",
+    "quipu",
+    "Andean archaeology",
+    "computational archaeology",
+    "subsidiary cords",
+    "pre-specification",
+    "Open Khipu Repository",
+    "Khipu Field Guide"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.18025748",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/khipufieldguide/data-science-khipu-article/tree/167b8df031dc9b8f1819c7a1148e35836d02016b",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/Disentangle-Lab/khipu-structural-graphs",
+      "relation": "references",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Disentangle-Lab/khipu-intra-grammar",
+      "relation": "references",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Disentangle-Lab/khipu-okr-kfg-concordance",
+      "relation": "references",
+      "resource_type": "software"
+    }
+  ]
+}

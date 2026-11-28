@@ -6,7 +6,7 @@ on OKR v2.1.0 (discovery: n=403 khipus, 15,302 subsidiaries) with:
   - Built-in physical negative control & dose-response curve for Law 5 (delta_ATTACH_POS = 0 vs >= 3 cm)
   - Strict cataloger stratification controls across all laws
   - Regional / archive dialect quantification across 8 major archaeological sites
-  - Publication-grade 4-panel figure (figures/fig5_phase2a_subsidiary_5laws.png, 300 DPI)
+  - Publication-grade 4-panel figure (figures/fig5_phase2a_candidate_regularities.png, 300 DPI)
 
 Does NOT modify any frozen Phase 1 outputs or PREREGISTRATION.md.
 """
@@ -930,7 +930,7 @@ def make_fig5(
     ax4.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    out = FIGURES_DIR / "fig5_phase2a_subsidiary_5laws.png"
+    out = FIGURES_DIR / "fig5_phase2a_candidate_regularities.png"
     plt.savefig(out, dpi=300, bbox_inches="tight")
     plt.close()
     return out
@@ -1007,23 +1007,23 @@ def main() -> None:
     l3_oos = law3_df[law3_df["cohort"] == "KFG_OOS"]
 
     summary_rows = [
-        ("Law 1: Slot-locked presence (BH q<0.05)", f"{int((l1_okr['q_bh']<0.05).sum())}/{len(l1_okr)} ({100*(l1_okr['q_bh']<0.05).mean():.1f}%)", f"{binomtest(int((l1_okr['q_bh']<0.05).sum()), len(l1_okr), 0.05, alternative='greater').pvalue:.3e}", f"{int((l1_oos['q_bh']<0.05).sum())}/{len(l1_oos)} ({100*(l1_oos['q_bh']<0.05).mean():.1f}%)", f"{binomtest(int((l1_oos['q_bh']<0.05).sum()), len(l1_oos), 0.05, alternative='greater').pvalue:.3e}"),
-        ("Law 2: 4th-axis color homology (strict sub!=parent)", f"{int((l2_okr['delta_nonparent'].dropna()>0).sum())}/{l2_okr['delta_nonparent'].notna().sum()} ({100*(l2_okr['delta_nonparent'].dropna()>0).mean():.1f}%)", f"{wilcoxon(l2_okr['delta_nonparent'].dropna()).pvalue:.3e}", f"{int((l2_oos['delta']>0).sum())}/{len(l2_oos)} (med {100*l2_oos['delta'].median():+.1f} pp)", "n=5 descriptive"),
-        ("Law 3: 5th-axis value homology (excess R^2 > 0)", f"{int((l3_okr['excess_r2']>0).sum())}/{len(l3_okr)} ({100*(l3_okr['excess_r2']>0).mean():.1f}%), {int((l3_okr['q_bh']<0.05).sum())} FDR", f"{wilcoxon(l3_okr['excess_r2']).pvalue:.3e}", f"{int((l3_oos['excess_r2']>0).sum())}/{len(l3_oos)} (100%)", "n=5 (AS005 p=0.019)"),
-        ("Law 4a: Hierarchical decay L1->L2 (child < parent)", f"{100*law4_df.iloc[0]['stat_val']:.1f}% (n={int(law4_df.iloc[0]['n_pairs'])})", f"{law4_df.iloc[0]['p_value']:.3e}", f"{100*law4_df.iloc[3]['stat_val']:.1f}% (n={int(law4_df.iloc[3]['n_pairs'])})", f"{law4_df.iloc[3]['p_value']:.3e}"),
-        ("Law 4c: Exact part-whole (parent>=10, >=2 subs)", f"{obs_pw} vs {np.mean(null_pw):.2f} null (n={len(m10)})", f"{p_pw:.4f}", "1/60 (AS008: 46=13+33)", "n=60 OOS"),
-        ("Law 5: Vertical descending (dAP>=3cm vs 0cm neg ctrl)", f"65.1% (dAP>=3cm) vs 46.7% (dAP=0cm); khipu {l5_meta['n_khipus_gt50']}/{l5_meta['n_khipus_any']}", f"dAP>=3cm: {dr_df.iloc[3]['binom_p']:.3e}; khipu: {l5_meta['wilcoxon_p_all']:.3e}", "KFG lacks ATTACH_POS (mixed height = 55.2%)", "Explained by dAP=0 ctrl"),
+        ("R1: Slot-locked presence (BH q<0.05)", f"{int((l1_okr['q_bh']<0.05).sum())}/{len(l1_okr)} ({100*(l1_okr['q_bh']<0.05).mean():.1f}%)", f"{binomtest(int((l1_okr['q_bh']<0.05).sum()), len(l1_okr), 0.05, alternative='greater').pvalue:.3e}", f"{int((l1_oos['q_bh']<0.05).sum())}/{len(l1_oos)} ({100*(l1_oos['q_bh']<0.05).mean():.1f}%)", f"{binomtest(int((l1_oos['q_bh']<0.05).sum()), len(l1_oos), 0.05, alternative='greater').pvalue:.3e}"),
+        ("R2: 4th-axis color homology (strict sub!=parent)", f"{int((l2_okr['delta_nonparent'].dropna()>0).sum())}/{l2_okr['delta_nonparent'].notna().sum()} ({100*(l2_okr['delta_nonparent'].dropna()>0).mean():.1f}%)", f"{wilcoxon(l2_okr['delta_nonparent'].dropna()).pvalue:.3e}", f"{int((l2_oos['delta']>0).sum())}/{len(l2_oos)} (med {100*l2_oos['delta'].median():+.1f} pp)", "n=5 descriptive"),
+        ("R3: 5th-axis value homology (excess R^2 > 0)", f"{int((l3_okr['excess_r2']>0).sum())}/{len(l3_okr)} ({100*(l3_okr['excess_r2']>0).mean():.1f}%), {int((l3_okr['q_bh']<0.05).sum())} FDR", f"{wilcoxon(l3_okr['excess_r2']).pvalue:.3e}", f"{int((l3_oos['excess_r2']>0).sum())}/{len(l3_oos)} (100%)", "n=5 (AS005 p=0.019)"),
+        ("R4a: Hierarchical decay L1->L2 (child < parent)", f"{100*law4_df.iloc[0]['stat_val']:.1f}% (n={int(law4_df.iloc[0]['n_pairs'])})", f"{law4_df.iloc[0]['p_value']:.3e}", f"{100*law4_df.iloc[3]['stat_val']:.1f}% (n={int(law4_df.iloc[3]['n_pairs'])})", f"{law4_df.iloc[3]['p_value']:.3e}"),
+        ("R4c: Exact part-whole (parent>=10, >=2 subs)", f"{obs_pw} vs {np.mean(null_pw):.2f} null (n={len(m10)})", f"{p_pw:.4f}", "1/60 (AS008: 46=13+33)", "n=60 OOS"),
+        ("R5: Vertical descending (dAP>=3cm vs 0cm neg ctrl)", f"65.1% (dAP>=3cm) vs 46.7% (dAP=0cm); khipu {l5_meta['n_khipus_gt50']}/{l5_meta['n_khipus_any']}", f"khipu: {l5_meta['wilcoxon_p_all']:.3e} (pair dAP>=3cm: {dr_df.iloc[3]['binom_p']:.3e})", "KFG lacks ATTACH_POS (mixed height = 55.2%)", "Explained by dAP=0 ctrl"),
     ]
-    summary_df = pd.DataFrame(summary_rows, columns=["law", "okr_discovery", "okr_p", "kfg_oos_replication", "kfg_oos_p"])
+    summary_df = pd.DataFrame(summary_rows, columns=["regularity", "okr_discovery", "okr_p", "kfg_oos_replication", "kfg_oos_p"])
 
     # Save all CSVs
-    summary_df.to_csv(RESULTS_DIR / "phase2a_subsidiary_5laws_summary.csv", index=False)
-    law1_df.to_csv(RESULTS_DIR / "phase2a_law1_slot_presence_okr_oos.csv", index=False)
-    law2_df.to_csv(RESULTS_DIR / "phase2a_law2_4th_axis_color.csv", index=False)
-    law3_df.to_csv(RESULTS_DIR / "phase2a_law3_5th_axis_value.csv", index=False)
-    law4_df.to_csv(RESULTS_DIR / "phase2a_law4_partwhole_and_decay.csv", index=False)
-    dr_df.to_csv(RESULTS_DIR / "phase2a_law5_vertical_doseresponse.csv", index=False)
-    cat_df.to_csv(RESULTS_DIR / "phase2a_law5_cataloger_audit.csv", index=False)
+    summary_df.to_csv(RESULTS_DIR / "phase2a_candidate_regularities_summary.csv", index=False)
+    law1_df.to_csv(RESULTS_DIR / "phase2a_reg1_slot_presence_okr_oos.csv", index=False)
+    law2_df.to_csv(RESULTS_DIR / "phase2a_reg2_4th_axis_color.csv", index=False)
+    law3_df.to_csv(RESULTS_DIR / "phase2a_reg3_5th_axis_value.csv", index=False)
+    law4_df.to_csv(RESULTS_DIR / "phase2a_reg4_partwhole_and_decay.csv", index=False)
+    dr_df.to_csv(RESULTS_DIR / "phase2a_reg5_vertical_doseresponse.csv", index=False)
+    cat_df.to_csv(RESULTS_DIR / "phase2a_reg5_cataloger_audit.csv", index=False)
     reg_df.to_csv(RESULTS_DIR / "phase2a_regional_subsidiary_dialects.csv", index=False)
 
     fig_path = make_fig5(summary_df, law2_df, law3_df, dr_df, cat_df, reg_df, reg_stats)

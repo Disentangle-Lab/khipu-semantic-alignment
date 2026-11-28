@@ -1,7 +1,0 @@
-law,okr_discovery,okr_p,kfg_oos_replication,kfg_oos_p
-Law 1: Slot-locked presence (BH q<0.05),42/86 (48.8%),1.631e-31,5/6 (83.3%),1.797e-06
-Law 2: 4th-axis color homology (strict sub!=parent),44/66 (66.7%),2.550e-05,3/5 (med +18.1 pp),n=5 descriptive
-Law 3: 5th-axis value homology (excess R^2 > 0),"41/73 (56.2%), 8 FDR",1.337e-03,5/5 (100%),n=5 (AS005 p=0.019)
-Law 4a: Hierarchical decay L1->L2 (child < parent),71.6% (n=7986),0.000e+00,72.4% (n=402),1.147e-32
-"Law 4c: Exact part-whole (parent>=10, >=2 subs)",24 vs 9.78 null (n=1231),0.0005,1/60 (AS008: 46=13+33),n=60 OOS
-Law 5: Vertical descending (dAP>=3cm vs 0cm neg ctrl),65.1% (dAP>=3cm) vs 46.7% (dAP=0cm); khipu 84/138,dAP>=3cm: 3.580e-23; khipu: 1.231e-03,KFG lacks ATTACH_POS (mixed height = 55.2%),Explained by dAP=0 ctrl

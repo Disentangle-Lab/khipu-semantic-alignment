@@ -1,6 +1,6 @@
 # Colonial Khipu Transcription Schemas (`data/colonial_schemas/`)
 
-Each `.json` file in this directory encodes **one primary-source verified colonial Andean khipu transcription** for pre-registered Step 3 (`src/step3_colonial_alignment.py`).
+Each `.json` file in this directory encodes **one primary-source verified colonial Andean khipu transcription** for internally pre-specified Step 3 (`src/step3_colonial_alignment.py`). See [`DATA_LICENSE.md`](../../DATA_LICENSE.md) for the explicit licensing exclusion notice pending written permission from the *Textos Andinos* copyright holders.
 
 ## Required JSON Contract
 

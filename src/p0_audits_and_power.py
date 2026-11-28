@@ -426,13 +426,13 @@ def run_phase2a_dedup_audit(rng: np.random.Generator) -> tuple[pd.DataFrame, pd.
             "p_display": f"{p4k:.2e}" if p4k > 0 else "p < 1e-300 (asymptotic Z)",
         },
         {
-            "regularity": "R5: Vertical descending sibling order (dAP >= 3 cm)",
-            "sample_dedup": f"{int(r5_3['n_top_gt_bot'])}/{int(r5_3['n_pairs'])} pairs ({meta5_ded['n_khipus_any']} khipus)",
-            "effect_metric": "Frac top>bottom vs dAP=0 neg ctrl",
-            "effect_size": f"{100*r5_3['frac_top_gt_bot']:.1f}% (95% CI {100*r5_3['ci_lo']:.1f}-{100*r5_3['ci_hi']:.1f}%) vs {100*r5_0['frac_top_gt_bot']:.1f}% at 0cm (delta={100*(r5_3['frac_top_gt_bot']-r5_0['frac_top_gt_bot']):+.1f} pp)",
-            "test_type": "Exact binomial (pair) + khipu Wilcoxon",
-            "raw_p": float(r5_3["binom_p"]),
-            "p_display": f"{r5_3['binom_p']:.2e} (khipu p={meta5_ded['wilcoxon_p_all']:.2e})",
+            "regularity": "R5: Vertical descending sibling order (khipu-level; dAP >= 3 cm contrast)",
+            "sample_dedup": f"{meta5_ded['n_khipus_gt50']}/{meta5_ded['n_khipus_any']} khipus ({int(r5_3['n_top_gt_bot'])}/{int(r5_3['n_pairs'])} pairs at dAP>=3cm)",
+            "effect_metric": "Khipu median frac(top>bot); pair dAP>=3cm vs 0cm ctrl",
+            "effect_size": f"Khipu med {100*meta5_ded['med_frac_all']:.1f}% ({meta5_ded['n_khipus_gt50']}/{meta5_ded['n_khipus_any']}); pair {100*r5_3['frac_top_gt_bot']:.1f}% (95% CI {100*r5_3['ci_lo']:.1f}-{100*r5_3['ci_hi']:.1f}%) vs {100*r5_0['frac_top_gt_bot']:.1f}% at 0cm (delta={100*(r5_3['frac_top_gt_bot']-r5_0['frac_top_gt_bot']):+.1f} pp)",
+            "test_type": "Wilcoxon signed-rank (khipu-level primary)",
+            "raw_p": float(meta5_ded["wilcoxon_p_all"]),
+            "p_display": f"{meta5_ded['wilcoxon_p_all']:.2e} (khipu primary; pair binomial {r5_3['binom_p']:.2e})",
         },
     ]
     edf = pd.DataFrame(reg_rows)
